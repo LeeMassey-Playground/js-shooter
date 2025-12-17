@@ -18,6 +18,4 @@ Includes responsive design so things stack nicely on smaller screens.
 
 ![js-shooter-screenshot-2](images/screenshot-2.png)
 
-![js-shooter-screenshot-3](images/screenshot-3.png)
-
-![js-shooter-screenshot-4](images/screenshot-4.png)
+![js-shooter-screenshot-3](images/screenshot-3.png)![js-shooter-screenshot-4](images/screenshot-4.png)
