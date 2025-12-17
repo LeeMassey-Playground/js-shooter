@@ -8,9 +8,9 @@ let shooting = false;
 const initialTerrain = ['O', '_', '_', '_', '_', '_', '_', '_', '_', '_', '_'];
 
 let terrain = initialTerrain;
-const terrainObjs = ['_', '|'];
+const terrainObjs = ['_', '_', '|', '|', '|'];
 
-let random = () => Math.floor(Math.random() * 2);
+let random = () => Math.floor(Math.random() * 5);
 
 function updateDisplay() {
     display.textContent = terrain.join('');
@@ -48,10 +48,11 @@ function shoot() {
     shooting = true;
     let x = 1;
     let prev = null;
+    let temp = '';
 
     const interval = setInterval(() => {
         if (prev != null && terrain[prev] === '-') {
-            terrain[prev] = '_';
+            terrain[prev] = temp;
         }
 
         if ((x === danger) || (x >= terrain.length)) {
@@ -66,6 +67,7 @@ function shoot() {
         }
 
         if (terrain[x] === '_') {
+            temp = terrain[x];
             terrain[x] = '-';
         }
 
