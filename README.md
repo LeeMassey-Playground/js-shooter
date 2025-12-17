@@ -6,7 +6,7 @@ There is no real way to 'win'.
 
 But it's fun.
 
-## Live link: [coming soon...]
+## Live link: https://leemassey-playground.github.io/js-shooter/
 
 # Built with HTML/CSS/JavaScript
 
@@ -19,3 +19,5 @@ Includes responsive design so things stack nicely on smaller screens.
 ![js-shooter-screenshot-2](images/screenshot-2.png)
 
 ![js-shooter-screenshot-3](images/screenshot-3.png)
+
+![js-shooter-screenshot-4](images/screenshot-4.png)
