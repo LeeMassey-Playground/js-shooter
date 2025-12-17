@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>JavaScript Shooter</title>
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="game-title">
+            <h1>JavaScript Shooter!</h1>
+            <h2 class="yellow">O ---- | / __</h2>
+        </div>
+
+        <div class="instruction-display-wrapper">
+
+            <button class="how-to-toggle">How to play</button>
+
+            <div class="instructions">
+
+                <ul>
+
+                    <li>Right-arrow key to 'move' across the terrain</li>
+                    <li>Space-bar to 'shoot'</li>
+                    <li><span class="yellow">O</span> is the player (you).</li>
+                    <li><span class="yellow">_</span> is the empty ground.</li>
+                    <li><span class="yellow">|</span> is a dangerous enemy.</li>
+                    <li><span class="yellow">-</span> are your one-hit-wonder bullets.</li>
+
+                </ul>
+
+            </div>
+
+            <div class="game">
+
+                <div class="display"></div>
+
+                <div class="buttons">
+
+                    <button class="move-btn">Move</button>
+                    <button class="shoot-btn">Shoot</button>
+                    <button class="reset-btn">Reset</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="game.js"></script>
+    <script src="interface.js"></script>
+
+</body>
+
+</html>
